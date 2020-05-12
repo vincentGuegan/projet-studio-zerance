@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: "Karla";  
+    src: url("/fonts/Karla-Regular.ttf") format("ttf");
+}
+
+* {
+    box-sizing: content-box;
+    background-color: white;
+}
+/* HEADER */
+
+header {
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.logo-studio-zerance {
+    max-width: 200px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links ul {
+    display: flex;
+    margin-right: auto;
+
+}
+.nav__links li {
+    font-family: "Karla", serif;
+    font-weight: 00;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links a {
+    font-family: "Karla", serif;
+    font-weight: 00;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav__links {
+    list-style: none; /* to get rid of the bullets */
+}
+
+.nav__links li > a {
+    transition: all 0.3s ease 0s; 
+}
+
+.nav__links li a:hover {
+    color: #ffcd19; 
+}
+
+/* SHOPIFY BANNER */
+
+.banner-description-date {
+    font-size: 1.5vw;
+    font-family: "Karla", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.banner-full-description {
+    display: block;
+    font-size: 5vw;
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 40px;
+
+}
+
+.banner-full-description::before {
+    content: "<";
+}
+.banner-full-description::after {
+    content: "/>";
+}
+.underline-yellow {
+    position: relative;
+    background: url(img/yellow-line.png) bottom no-repeat;
+    background-size: 100%; /* to keep same size in responsive */
+    size: 5vw;
+}
+
+
+/* CLIENTS LOGOS GRID */
+
+.clients-description {
+    font-size: 20px;
+    font-family: "Karla", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.gridLogos{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-icone {
+    width: 150px;
+    background-color: black;
+    display: block;
+    margin: 20px;
+}
+
+.logoMM {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.clients-logos {
+    background-color: black;
+    padding: 3rem;    /* 1 rem = 10px */
+}
+
+/* CAROUSEL */
+.carousel-inner {
+    padding-right: 10%;
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.caption-one{
+    position: absolute;
+    display: block;
+    max-width: 400px;
+    color: black;
+    right: 5%;
+    top: 5%;
+    text-align: center;
+    font-family: "Karla", serif;
+    padding: 2%;
+}
+
+.caption-one > div > img {
+    width: 40%;
+    padding: 5px;
+}
+
+.caption-one a{
+    color: black;
+    background-color: white;   
+}
+
+.caption-one a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-style: italic;  
+}
+
+.caption-one a::before{
+    content: "<";
+}
+
+.caption-one a::after{
+    content: "/>";
+}
+
+.btn-underline-yellow {
+    position: relative;
+    background: url(img/yellow-line.png) bottom no-repeat;
+    background-size: 100%; /* to keep same size in responsive */
+}
+
+/* TEXTE INFINITE */
+
+.texte-infinite {
+    padding: 15px;
+    color: white;
+}
+
+
+/* MEDIAS */
+
+@media only screen and (max-width: 800px) {
+    
+    .nav__links {
+        display: none;
+    }
+}
