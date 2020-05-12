@@ -4,7 +4,7 @@ Bonjour,
 
 Vous pouvez mettre la main sur le projet via le lien suivant:
 
-[https://vincentguegan.github.io/projet-studio-zerance/](https://vincentguegan.github.io/studio-zerance/)
+[https://vincentguegan.github.io/projet-studio-zerance/](https://vincentguegan.github.io/projet-studio-zerance/)
 
 Je vais vous expliquer les avancées sur la création de cette page section par section:
 
